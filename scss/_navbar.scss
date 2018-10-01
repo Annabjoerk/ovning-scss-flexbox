@@ -1,5 +1,26 @@
 /* ====== NAVBAR ====== */
 
 nav {
-  background-color: 
+  background-color: $quaternary-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline;
+      a {
+        padding: 1em;
+        display: inline-block;
+        color: $quinary-color;
+        text-decoration: none;
+      } & :hover {
+      background-color: $senary-color;
+     }
+    }
+  }
+
 }

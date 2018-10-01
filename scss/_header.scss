@@ -1,0 +1,14 @@
+/* ====== HEADER ====== */
+
+header {
+  height: 50vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: $primary-color;
+  background-image: url(..images/paint.jpg);
+}
+
+.jumbotron {
+  text-align: center;
+}
